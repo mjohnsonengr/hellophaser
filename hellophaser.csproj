@@ -22,9 +22,18 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="phaser.min.js" />
-    <Content Include="phaser.png" />
+    <Content Include="client\assets\baddie.png" />
+    <Content Include="client\assets\diamond.png" />
+    <Content Include="client\assets\dude.png" />
+    <Content Include="client\assets\firstaid.png" />
+    <Content Include="client\assets\platform.png" />
+    <Content Include="client\assets\sky.png" />
+    <Content Include="client\assets\star.png" />
+    <Content Include="client\app.css" />
+    <Content Include="client\index.html" />
+    <Content Include="client\firstgame.html" />
+    <Content Include="client\libs\phaser\phaser.min.js" />
+    <Content Include="client\phaser.png" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +43,14 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="client\app.ts" />
+    <TypeScriptCompile Include="client\libs\phaser\p2.d.ts" />
+    <TypeScriptCompile Include="client\libs\phaser\phaser.comments.d.ts" />
+    <TypeScriptCompile Include="client\libs\phaser\phaser.d.ts" />
+    <TypeScriptCompile Include="client\libs\phaser\pixi.comments.d.ts" />
+    <TypeScriptCompile Include="client\libs\phaser\pixi.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
