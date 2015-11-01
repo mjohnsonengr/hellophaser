@@ -1,5 +1,5 @@
-﻿class SimpleGame {
-    
+class SimpleGame {
+
     game: Phaser.Game;
 
     constructor() {
@@ -19,4 +19,5 @@
 
 window.onload = () => {
     var game = new SimpleGame();
+    console.log("asdf");
 };
