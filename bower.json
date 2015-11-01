@@ -1,0 +1,24 @@
+{
+  "name": "hellophaser",
+  "description": "A TypeScript/Phaser sandbox/gold-brick",
+  "main": "gruntfile.js",
+  "authors": [
+    "Marcus Johnson"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mjohnsonengr/hellophaser",
+  "moduleType": [
+    "amd"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.4.4"
+  }
+}
